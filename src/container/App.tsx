@@ -1,10 +1,14 @@
 import React from 'react';
 import {View, Image, StyleSheet, Text} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import fonts from '../res/fonts';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={{color: 'black', fontSize: 30}}>Kiên</Text>
+      <Text
+        style={{color: 'black', fontSize: 30, fontFamily: fonts.fontRegular}}>
+        Kiên
+      </Text>
       <Icon
         name="eye-slash"
         color={'#bcbdbe'}
