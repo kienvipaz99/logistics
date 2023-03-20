@@ -9,6 +9,7 @@ import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {StyleSheet, View} from 'react-native';
 import SlapshScreen from './src/screen/SlapshScreen/SlapshScreen';
+import Container from './src/container/Container';
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -16,7 +17,7 @@ type SectionProps = PropsWithChildren<{
 function App(): JSX.Element {
   return (
     <View style={styles.container}>
-      <SlapshScreen />
+      <Container />
     </View>
   );
 }
