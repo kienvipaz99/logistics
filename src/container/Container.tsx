@@ -7,19 +7,23 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import SlapshScreen from '../screen/SlapshScreen/SlapshScreen';
 import SlapshScreen1 from '../screen/SlapshScreen/SlapshScreen1';
 import Login from '../screen/Login/Login';
+import Home from '../screen/Home/Home';
+import Menu from '../component/menu/Menu';
 const Stack = createNativeStackNavigator();
 
 function Container() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="SlapshScreen" screenOptions={{headerShown: false}}>
+      <Stack.Navigator initialRouteName="Menu" screenOptions={{headerShown: false}}>
         <Stack.Screen name="SlapshScreen" component={SlapshScreen} />
         <Stack.Screen name="SlapshScreen1" component={SlapshScreen1} />
         <Stack.Screen
           name="Login"
           component={Login}
-          // options={{animation: 'slide_from_bottom', animationDuration: 1200}}
+          options={{animation: 'slide_from_bottom', animationDuration: 1200}}
         />
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Menu" component={Menu} />
       </Stack.Navigator>
     </NavigationContainer>
   );

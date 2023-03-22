@@ -14,7 +14,7 @@ const stylesComponent = StyleSheet.create({
     justifyContent: 'flex-start',
   },
   txtInput: {
-    color: colors.colorTextSiver,
+    color: colors.colorText,
     fontFamily: fonts.fontRegular,
     fontSize: sizes._screen_width * 0.038,
     width: '80%',
@@ -28,12 +28,19 @@ const stylesComponent = StyleSheet.create({
     tintColor: colors.colorTextRed,
   },
   checkbox: {
-    height: sizes._screen_width * 0.06,
-    width: sizes._screen_width * 0.06,
+    height: sizes._screen_width * 0.057,
+    width: sizes._screen_width * 0.057,
     borderWidth: 0.8,
     borderColor: colors.colorTextSiver,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  btn: {
+    height: sizes._50sdp,
+    width: sizes._screen_width * 0.8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 60,
   },
 });
 export default stylesComponent;

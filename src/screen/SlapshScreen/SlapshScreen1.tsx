@@ -2,7 +2,7 @@ import {Animated, Image, StatusBar, Text, TouchableOpacity, View} from 'react-na
 import React, {memo, useRef} from 'react';
 import images from '../../res/images';
 import sizes from '../../res/sizes';
-import stylescustom from '../../res/styles/styles';
+import stylescustom from '../../res/styles/stylescustom';
 interface Props {
   navigation: any;
 }
@@ -33,4 +33,4 @@ const SlapshScreen1 = (props: Props) => {
     </View>
   );
 };
-export default memo(SlapshScreen1);
+export default SlapshScreen1;

@@ -1,7 +1,7 @@
 import {ImageBackground, SafeAreaView, View, StatusBar} from 'react-native';
 import React, {memo, useRef} from 'react';
 import images from '../../res/images';
-import stylescustom from '../../res/styles/styles';
+import stylescustom from '../../res/styles/stylescustom';
 interface Props {
   navigation: any;
 }

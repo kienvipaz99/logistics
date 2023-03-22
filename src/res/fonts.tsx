@@ -1,7 +1,7 @@
 const fonts = {
-  fontItalic: 'NotoSansDisplay-BlackItalic',
-  fontBold: 'NotoSansDisplay-ExtraBold',
-  fontBoldItalic: 'NotoSansDisplay-BoldItalic',
-  fontRegular: 'NotoSansDisplay-Regular',
+  fontItalic: 'ProductSans-Italic',
+  fontBold: 'ProductSans-Bold',
+  fontBoldItalic: 'ProductSans-BoldItalic',
+  fontRegular: 'ProductSans-Regular',
 };
 export default fonts;
