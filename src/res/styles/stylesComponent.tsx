@@ -42,5 +42,13 @@ const stylesComponent = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 60,
   },
+  styleitemmenu: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  imgemenu: {
+    height: sizes._screen_width * 0.065,
+    width: sizes._screen_width * 0.065,
+  },
 });
 export default stylesComponent;

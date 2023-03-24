@@ -15,12 +15,6 @@ interface Props {
 const HeaderHome = (props: Props) => {
   return (
     <SafeAreaView style={[stylescustom.headerHome]}>
-      <StatusBar
-        backgroundColor={colors.colorBGRed}
-        barStyle={'light-content'}
-        showHideTransition={'fade'}
-        translucent={false}
-      />
       <View style={stylescustom.headerHome1}>
         <IconMenu navigation={props.navigation} />
         <Image source={images.logoapp} style={stylescustom.imglogo} resizeMode={'center'} />

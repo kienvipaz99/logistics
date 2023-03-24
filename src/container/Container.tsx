@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator();
 function Container() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Menu" screenOptions={{headerShown: false}}>
+      <Stack.Navigator initialRouteName="SlapshScreen" screenOptions={{headerShown: false}}>
         <Stack.Screen name="SlapshScreen" component={SlapshScreen} />
         <Stack.Screen name="SlapshScreen1" component={SlapshScreen1} />
         <Stack.Screen
@@ -22,7 +22,7 @@ function Container() {
           component={Login}
           options={{animation: 'slide_from_bottom', animationDuration: 1200}}
         />
-        <Stack.Screen name="Home" component={Home} />
+
         <Stack.Screen name="Menu" component={Menu} />
       </Stack.Navigator>
     </NavigationContainer>

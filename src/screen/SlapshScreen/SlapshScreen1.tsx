@@ -8,8 +8,6 @@ interface Props {
 }
 const SlapshScreen1 = (props: Props) => {
   const Navigation = () => {
-    console.log('a');
-
     props.navigation.navigate('Login');
   };
 

@@ -7,9 +7,10 @@
 
 import React from 'react';
 import type {PropsWithChildren} from 'react';
-import {StyleSheet, View} from 'react-native';
-import SlapshScreen from './src/screen/SlapshScreen/SlapshScreen';
+import {StyleSheet, View, StatusBar} from 'react-native';
+
 import Container from './src/container/Container';
+import colors from './src/res/colors';
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;

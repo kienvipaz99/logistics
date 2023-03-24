@@ -1,9 +1,7 @@
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import React from 'react';
-
 import Icon from 'react-native-vector-icons/Feather';
 import sizes from '../../res/sizes';
-
 interface Props {
   navigation: any;
 }

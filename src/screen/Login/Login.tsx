@@ -19,7 +19,7 @@ export default function Login(props: Props) {
     setChecked(!checked);
   };
   const onPressLogin = async () => {
-    await props.navigation.navigate('Home');
+    await props.navigation.navigate('Menu');
   };
   return (
     <ScrollView style={{flex: 1, backgroundColor: 'white'}}>
